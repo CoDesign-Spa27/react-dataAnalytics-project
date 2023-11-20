@@ -1,5 +1,4 @@
 import React from 'react'
-import Analytic from '../../public/test-img.jpeg';
 
 const Analytics = () => {
 
@@ -7,7 +6,7 @@ const Analytics = () => {
   return (
     <div className='w-full bg-white py-14 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-      <img src={Analytic}  alt='img'/>
+      <img src='/Analytic.svg'  alt='img'/>
         <div className='flex flex-col justify-center '>
       <p className='text-[#00df9a] font-bold border-b text-[1.3rem] md:text-xl'>Data Analytics Dashboard</p>
           <h1 className='font-bold py-1 text-[1.6rem] md:text-2xl'>Manage Data Analytics Centrally</h1>
